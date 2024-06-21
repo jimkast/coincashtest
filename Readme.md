@@ -1,9 +1,5 @@
 # Coincash test JS / ReactJS responsive app
 
-### Improvements for production
-- Bundle CSS to a single (cached) file
-- Minify / uglify and cache the bundled JS
-
 ### Prerequistes
 NodeJS
 
@@ -24,3 +20,8 @@ Builds typescript to a single bundled js file (src/dist/bundle.js)
  - `npm run ts:watch` : Watch and compile typescript files to src/js output directory upon file changes
  - `npm run js:watch` : Watch and bundle javascript output module files
  - `npm run serve` : Run a local http server listening to port 8080
+
+
+### Improvements for production
+- Bundle CSS to a single (cached) file
+- Minify / uglify and cache the bundled JS
