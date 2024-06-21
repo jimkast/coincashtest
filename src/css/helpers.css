@@ -1,0 +1,65 @@
+table {
+    max-width: 100%;
+}
+
+.frame {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.clearfix:after, .row:after, .row-stay:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.wrapper {
+    max-width: 1112px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.wrapper-small {
+    max-width: 540px;
+    margin: 0 auto;
+}
+
+.hidden {
+    display: none;
+}
+
+.inline {
+    display: inline;
+}
+
+.inblock {
+    display: inline-block;
+}
+
+.topblock {
+    vertical-align: top;
+    display: inline-block;
+}
+
+.midblock {
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.nopad {
+    padding: 0 !important;
+}
+
+.nomrg {
+    margin: 0 !important;
+}
+
+.home-sec {
+    padding: 100px 0;
+}
+
+
+.home-gap {
+    margin: 135px 0;
+}

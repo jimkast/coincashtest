@@ -1,0 +1,29 @@
+{
+  "name": "datawise_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run build && npm run serve",
+    "serve": "http-server ./src -d false -c-1 -o",
+    "build": "tsc -p tsconfig.json && browserify src/js/index.js -o src/dist/bundle.js",
+    "watch": "npm run ts:watch; npm run js:watch",
+    "ts:watch": "tsc -p tsconfig.json -w",
+    "js:watch": "chokidar \"src/js/**/*.js\" -c \"browserify src/js/index.js -o src/dist/bundle.js\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "browserify": "^17.0.0",
+    "chokidar-cli": "^3.0.0",
+    "http-server": "^14.1.1",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}

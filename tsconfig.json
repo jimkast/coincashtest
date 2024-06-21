@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "target": "ES5",
+    "jsx": "react",
+    "lib": ["es2022", "dom"],
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "sourceMap": false,
+    "outDir": "src/js/",
+    "rootDir": "src/ts"
+  },
+  "include": [
+    "src/ts/**/*.ts",
+    "src/ts/**/*.tsx"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts"
+  ]
+}

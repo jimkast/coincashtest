@@ -1,0 +1,93 @@
+.btn-header-nav {
+    display: none;
+}
+
+@media screen and (max-width: 1023px) {
+    .header {
+        padding-top: 20px;
+    }
+
+    .hero-right {
+        margin: 0 -15px;
+    }
+
+    .circle-img-wrap {
+        width: 40%;
+    }
+
+
+    .tbl-mb-collapse,
+    .tbl-cell {
+        display: block;
+        width: auto;
+    }
+
+    .footer-signup-form {
+        margin-top: 45px;
+        margin-bottom: 20px;
+    }
+
+    .footer {
+        text-align: center;
+        margin-bottom: 35px;
+    }
+
+    .footer-menu-item {
+        display: block;
+        margin-bottom: 20px;
+    }
+    .header-nav,
+    .promo-hor-item-right .promo-hor-item-img-wrap-right {
+        display: none;
+    }
+
+    .promo-hor-item-right .promo-hor-item-img-wrap-left,
+    .btn-header-nav,
+    .header-nav-expanded .header-nav {
+        display: block;
+    }
+
+    .btn-header-nav {
+        border: none;
+        outline: none;
+        background-color: white;
+        float: right;
+        margin-top: 10px;
+    }
+
+    .header-nav-expanded {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: white;
+    }
+
+    .header-nav-expanded .header-nav {
+        position: fixed;
+        z-index: 999;
+        background-color: white;
+        top: 74px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        text-align: center;
+    }
+
+    .header-nav-expanded .header-nav-item {
+        display: block;
+        float: none;
+        margin: 20px 0;
+    }
+
+    .footer-left,
+    .footer-right,
+    .header-nav-expanded  .header-nav {
+        float: none;
+    }
+
+
+}
+
+

@@ -1,0 +1,52 @@
+.sec-footer {
+    background: linear-gradient(180deg, #020D1F 0%, #0066FF 163.62%), #020D1F;
+    color: white;
+    text-align: center;
+    padding-bottom: 1px;
+}
+
+.footer {
+    margin-top: 35px;
+}
+
+.footer-left {
+    float: left;
+    margin-bottom: 35px;
+}
+
+.footer-right {
+    float: right;
+}
+
+.footer-menu {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.footer-menu-item {
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 20px
+}
+
+.footer-menu-item:first-child {
+    margin-left: 0;
+}
+
+.footer-link {
+    color: white;
+}
+
+.footer-link:hover,
+.footer-link:focus {
+    text-decoration: underline;
+}
+
+.footer-signup-form {
+    margin: 130px auto;
+    max-width: 400px;
+}
+
+.link-white {
+    color: white;
+}
